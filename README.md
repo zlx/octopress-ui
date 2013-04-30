@@ -2,6 +2,10 @@
 
 A simple blog ui for octopress
 
+## Demo
+
+  ![demo](http://blog.zlxstar.me/images/octopress-ui-demo.png)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -18,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-A simple blog ui for octopress
+1. Add `Gem ``'octopress-ui'` to your Gemfile
+
+2. Add `require 'octopress/ui'` to the beginning of config.ru
+
+3. Add  `use Octopress::Ui::UIServer` under the line `class SinatraStaticServer <
+[[Sinatra::Base`]] in config.ru
+
 
 ## Contributing
 
