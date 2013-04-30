@@ -1,0 +1,33 @@
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+.alert-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.title-section, .content-section, .buttons {
+  margin-bottom: 10px;
+}
+
+.title {
+  width: 300px;
+  height: 20px;
+}
+
+.processing {
+  width: 5px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 7px;
+  padding-right: 30px;
+  background-image: url("/images/processing.png");
+  background-repeat: no-repeat;
+  background-position-x: 12;
+  background-position-y: 3;
+  background-size: 25;
+}
